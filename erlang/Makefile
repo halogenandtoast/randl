@@ -1,2 +1,2 @@
 run:
-	@erl -run randl main -run init stop -noshell
+	@erlc randl.erl && erl -run randl main -run init stop -noshell

@@ -13,7 +13,7 @@ factions() ->
   shuffle(L).
 
 printList(L) ->
-  Printer = fun(E) -> io:format("E: ~p~n",[E]) end,
+  Printer = fun(E) -> io:format("~p~n",[E]) end,
   lists:foreach(Printer,L).
 
 main() ->
