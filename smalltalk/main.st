@@ -18,7 +18,7 @@ factions := OrderedCollection new.
 factions addAll: #('American' 'British' 'French' 'Indian').
 Shuffler Knuth: factions.
 
-length := names size
+length := names size.
 
 1 to: length do: [:x |
   '(' display.

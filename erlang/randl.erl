@@ -2,7 +2,7 @@
 -export([main/0]).
 
 shuffle(L) ->
-  [X||{_,X} <- lists:sort([ {random:uniform(), N} || N <- L])].
+  [X || {_, X} <- lists:sort([ {random:uniform(), N} || N <- L])].
 
 names() ->
   L = ["Matt", "Richard"],
