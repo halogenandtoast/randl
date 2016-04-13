@@ -1,5 +1,5 @@
-names = ["Matt", "Brandy", "Bradley"]
-factions = ["Americans", "British", "French", "Indians"]
+names = ["Matt", "Brandy", "Bradley"].shuffle
+factions = ["Americans", "British", "French", "Indians"].shuffle
 
 result = names.
   zip(factions).
